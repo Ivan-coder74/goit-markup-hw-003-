@@ -15,6 +15,7 @@
   
 
 .page{
+  
   margin: 0;
   background-color: #ffffff;
   color: var(--primary-text-color);
@@ -49,8 +50,8 @@ section{padding-top: 94px;}
 .main-nav{
   display: flex;
   align-items: center;
-  padding-left: 15px;
-padding-right: 15px;
+  padding-left: 25px;
+padding-right: 25px;
 width: 1230px;
 border: 1px solid var(--line-portfolio);
 }
@@ -193,8 +194,8 @@ border: transparent;
 .section-details{
    justify-content: space-between;
   display: flex;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .item:not(:first-child )
 {margin-left: 30px;}
@@ -224,8 +225,8 @@ border: transparent;
  /* <!--OUR WORKS--> */
 .section-work{
   padding-bottom: 94px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
   width: 1230px;
 }
  
@@ -261,8 +262,8 @@ border: transparent;
 .section-team-ul{
   display: flex;
   
-   padding-left: 15px;
-  padding-right: 15px;
+   padding-left: 25px;
+  padding-right: 25px;
   justify-content: space-between;
 
 }
@@ -314,8 +315,8 @@ letter-spacing: 0.03em}
   width:  1230px;
  padding-top: 60px;
  padding-bottom: 60px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.71;
