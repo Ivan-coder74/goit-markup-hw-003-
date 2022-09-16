@@ -50,22 +50,19 @@ section{padding-top: 94px;}
 border-bottom: 1px solid var(--line-portfolio);
 display: flex;
   justify-content:center;
-
   align-items: center;
  height: 80px;
 }
 .conteiner{
   width: 1200px;
   align-items: center;
-  margin: 0px,auto;
- 
+  margin: 0 auto;
+
    
 }
 .main-nav{
   display: flex;
   align-items: center;
-  
-
 
 }
 
@@ -164,7 +161,8 @@ color: var(--title-text-color);
   background-color: var(--background-color);
   max-width: 1600px;
   text-align: center;
-    padding: 200px 0;
+  padding: 200px 0;
+  margin: 0 auto;
 }
 .hero-title {
   color: var(--secondary-text-color);
@@ -362,6 +360,13 @@ margin-top: 20px;
 }
 .footer-ul{
  margin: 0;
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+letter-spacing: 0.03em;
 }
 
 .footer-li{
@@ -491,11 +496,14 @@ border-radius: 4px;
   
   padding-bottom: 94px;
 }
-.portfolio-info-li{ border: 1px solid var(--title-portfolio);
-padding: 20px 24px;}
+.portfolio-info-li{ border-left:  1px solid var(--title-portfolio);
+  border-right:  1px solid var(--title-portfolio);
+  border-bottom:  1px solid var(--title-portfolio);
+padding: 20px 24px;
+}
 .porfolio-conteiner-li:nth-child(n+6) {margin-bottom: 0px;}
 .porfolio-conteiner-li{
-  
+  margin-bottom: 30px;
   border:var(--primary-text-color);
 }
 .porfolio-conteiner-li:nth-child(3n) {
